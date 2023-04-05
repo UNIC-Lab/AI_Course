@@ -1,12 +1,14 @@
 # ***强化学习进阶***
-## Markov决策过程
-* 值函数和策略
+## 一、强化学习基础理论
+### 1.1 Markov决策过程
 
-* 强化学习中的探索与利用问题
+### 1.2 值函数和策略
 
-* 蒙特卡罗方法
+### 1.3 强化学习中的探索与利用问题
 
-* 时间差分方法
+### 1.4 蒙特卡罗方法
+  Blogs: [强化学习 - 蒙特卡罗法(Monte Carlo Methods)](https://zhuanlan.zhihu.com/p/72715842)
+### 1.5 时间差分方法
 
 * 动态规划方法
 ## 基于值函数的强化学习算法
@@ -36,29 +38,44 @@
 相关学习资源：
 
 书籍
+
 《深度强化学习》（丁负、贾志刚等）
+
 《Reinforcement Learning: An Introduction》（Richard S. Sutton, Andrew G. Barto）
+
 视频课程
+
 李宏毅的《深度强化学习》
+
 David Silver的《Reinforcement Learning》课程
+
 强化学习论文
+
 Playing Atari with Deep Reinforcement Learning（DQN）
+
 Human-level control through deep reinforcement learning（DQN）
+
 Continuous control with deep reinforcement learning（DDPG）
+
 Addressing Function Approximation Error in Actor-Critic Methods（ACER）
+
 Trust Region Policy Optimization（TRPO）
+
 Proximal Policy Optimization Algorithms（PPO）
+
 Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor（SAC）
-以上资源均为英文，如果需要中文资源，可以参考以下书籍和课程：
+
 
 书籍：
 
-《强化学习导论》（Sutton著）https://rl.qiwihui.com/zh_CN/latest/
+[《强化学习导论》（Sutton著）](https://rl.qiwihui.com/zh_CN/latest/)
 
 《强化学习：原理、算法与应用》（李宏毅、王宇飞、李剑飞著）
 
 《深度强化学习实战》（王汝建等著）
 
 视频课程
+
 谷歌AI前沿课程《深度强化学习》（中文版）
+
 网易云课堂的《深度强化学习》（李宏毅主讲）
