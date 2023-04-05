@@ -1,12 +1,12 @@
 # ***基础知识速通指南***
-## 数学基础
+## *数学基础*
 ### 需掌握的基本能力
 * 线性代数：了解矩阵、向量、行列式、特征值等基本概念
 
 * 微积分：了解导数、偏导数、极值等基本概念
 
 * 概率论与统计学：了解概率、条件概率、期望、方差等基本概念
-## 编程基础
+## *编程基础*
 * Python基础：了解Python基本语法、掌握基本数据类型、条件语句、循环语句、函数、列表、字典等
 ### 学习资源
 * 书籍：《Python基础教程》（廖雪峰）、《python编程：从入门到实战》（埃里克 • 马瑟斯）
@@ -15,7 +15,7 @@
 
 * 视频课程：[《Python零基础教程》](https://www.bilibili.com/video/BV1qW4y1a7fU/?spm_id_from=333.337.search-card.all.click)
 
-## 机器学习基础
+## *机器学习基础*
 ### 需掌握的基本能力
 * 监督学习：了解基本的回归、分类算法（如线性回归、逻辑回归、决策树、支持向量机等）以及如何使用Python库实现
 
@@ -28,7 +28,7 @@
 * 文档：[Sklearn官方中文文档](https://sklearn.apachecn.org/#/)
 
 * 视频课程：[机器学习-吴恩达](https://www.bilibili.com/video/BV1By4y1J7A5/?spm_id_from=333.337.search-card.all.click&vd_source=ef6bc9d073dccb208fb608bc99286677)、[机器学习-李宏毅](https://www.bilibili.com/video/BV13x411v7US/?spm_id_from=333.337.search-card.all.click&vd_source=ef6bc9d073dccb208fb608bc99286677)
-## 深度学习基础
+## *深度学习基础*
 ### 需掌握的基本能力
 * 神经网络基础：了解神经网络的基本组成部分（如感知器、多层感知器等）以及如何使用Python库实现
 
