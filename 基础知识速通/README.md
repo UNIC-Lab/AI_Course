@@ -42,7 +42,7 @@
 
 * 文档：[Pytorch官方中文文档](https://pytorch-cn.readthedocs.io/zh/latest/)
 
-* 课程： [Pytorch入门教程](https://www.bilibili.com/video/BV1rs4y1E7gx/?spm_id_from=333.337.search-card.all.click&vd_source=ef6bc9d073dccb208fb608bc99286677)
+* 课程： [Pytorch入门教程](https://www.bilibili.com/video/BV1rs4y1E7gx/?spm_id_from=333.337.search-card.all.click&vd_source=ef6bc9d073dccb208fb608bc99286677)、[动手学深度学习--李沐](https://space.bilibili.com/1567748478/channel/seriesdetail?sid=358497)
 
 ## 说明
 本指南为在有一定数学基础下的速通指南，各部分之间会有些许交叉。总的来说机器学习是最重要的基础，可以参考西瓜书了解相关理论，其中的公式推导可以参考南瓜书的讲解。深度学习更面向应用，推荐根据《神经网络与深度学习》（Michael Nielsen）进行系统学习，同时尝试跑一些demo实战能帮助理解，深度学习框架方面推荐Pytorch。相关pdf资源已上传。
