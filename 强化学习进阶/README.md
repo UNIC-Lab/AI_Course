@@ -62,6 +62,8 @@
 
   - 《深度强化学习实战》（王汝建等著）
 
+  -  [OpenAI 强化学习教程](https://spinningup.openai.com/en/latest/spinningup/rl_intro.html)
+
 - 视频课程
 
   - [UCB CS285](https://www.bilibili.com/video/BV12341167kL/?spm_id_from=333.337.search-card.all.click&vd_source=ef6bc9d073dccb208fb608bc99286677)
