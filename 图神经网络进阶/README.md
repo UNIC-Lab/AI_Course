@@ -31,9 +31,8 @@
 
 ## 六. 学习资源
 
-书籍：《图神经网络实战》（王磊）
+书籍：《图神经网络实战》（王磊）、《图神经网络：基础与前沿》(左腾飞)
 
-课程：CS224W: Machine Learning with Graphs (斯坦福大学)
 
 - 视频教程：[CS224W: Machine Learning with Graphs (斯坦福大学)](https://www.bilibili.com/video/BV1s54y1H76H/?vd_source=ef6bc9d073dccb208fb608bc99286677)
 
