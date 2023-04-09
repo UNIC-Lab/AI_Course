@@ -43,3 +43,6 @@
 [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/)、 [DGL](https://docs.dgl.ai/)
 
 [PyG快速上手](https://towardsdatascience.com/hands-on-graph-neural-networks-with-pytorch-pytorch-geometric-359487e221a8)
+
+## 说明
+本指南主要针对快速入门选手，分方向列举了少部分经典文献，更多文献可以参照PaperList项目。Coding方面推荐基于Pytorch的PyG，有基本pytorch的基础上可参照快速上手的博客学习，尝试跑通demo，配环境之类的问题记得咨询，没必要在这种过于基础且繁琐的问题上踩坑。《图神经网络：基础与前沿》为公认质量较高的中文教材，图书馆可借阅，或实验室购置。
