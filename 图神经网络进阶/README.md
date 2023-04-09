@@ -39,3 +39,4 @@
 ## 七、框架
 [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/)、 [DGL](https://docs.dgl.ai/)
 
+[PyG快速上手](https://towardsdatascience.com/hands-on-graph-neural-networks-with-pytorch-pytorch-geometric-359487e221a8)
