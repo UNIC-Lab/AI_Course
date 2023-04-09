@@ -31,10 +31,13 @@
 
 ## 六. 学习资源
 
-书籍：《图神经网络实战》（王磊）、《图神经网络：基础与前沿》(左腾飞)
+- 书籍：《图神经网络实战》（王磊）、《图神经网络：基础与前沿》(左腾飞)
 
 
 - 视频教程：[CS224W: Machine Learning with Graphs (斯坦福大学)](https://www.bilibili.com/video/BV1s54y1H76H/?vd_source=ef6bc9d073dccb208fb608bc99286677)
+
+- [PaperList](https://github.com/GRAND-Lab/Awesome-Graph-Neural-Networks)
+
 
 ## 七、框架
 [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/)、 [DGL](https://docs.dgl.ai/)
