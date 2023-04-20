@@ -6,11 +6,11 @@
 * 微积分：了解导数、偏导数、极值等基本概念
 
 * 概率论与统计学：了解概率、条件概率、期望、方差等基本概念
-## *二、编程基础（1 Weeks）*
+## *二、编程基础（1 Week）*
 ### 2.1 需掌握的基本能力
 - Python基础：了解Python基本语法、掌握基本数据类型、条件语句、循环语句、函数、列表、字典等
 - Python需要了解的知识点及参考资料：
-  - 编程环境配置：IDE工具：vscode(简洁、可玩性高、可扩展性强)、pycharm(开发工具更多、更专业、且集成了环境管理工具)、JupyterNotbook(基于Web，基于ipython，支持markdown)，版本：Python3.4-Python3.10。
+  - 编程环境配置：IDE工具：vscode(简洁、可玩性高、可扩展性强)、pycharm(开发工具更多、更专业、且集成了环境管理工具)、JupyterNotbook(基于Web，基于ipython，支持markdown)，版本：Python3.4-Python3.10。初学可尝试使用JupyterNotebook，逻辑性较强；一般性实验推荐VScode，项目开发推荐Pycharm。
   - 基础语法知识点：基本环境、变量和数据类型、列表、if判断、字典、标准输入输出、while循环、函数、类、文件、异常等。这些是保证能写出完整代码的必要保证。
   - 必要的工具库：[Numpy（基础且通用的库，处理n维array）](https://github.com/lijin-THU/notes-python/blob/master/03-numpy/03.01-numpy-overview.ipynb)、[matplotlib(python绘图基础)](https://github.com/lijin-THU/notes-python/blob/master/03-numpy/03.02-matplotlib-basics.ipynb)等。
   - 环境管理：推荐conda([使用指南](https://zhuanlan.zhihu.com/p/44398592))
@@ -55,7 +55,7 @@
   
   - **经验误差、泛化误差、过拟合**：模型的预测输出与样本的真实输出之间的差异称作“误差”（error），模型在训练集上的误差称作训练误差，也叫**经验误差**；在新样本上的误差称作**泛化误差**, 当模型把训练样本学得“太好”时，很可能已经把训练样本自身的一些特点当作了所有潜在样本都会具有的一般性质，这样会致使泛化性能的下降，这种现象在机器学习中称作**过拟合(overfitting)**，与过拟合相对的是**欠拟合(underfitting)**，欠拟合是指对训练样本的一般性质尚未学好。-->西瓜书[2.1]、吴恩达[P39]
   
-  - **正则化、偏差与方差**：西瓜书[2.5]、机器学习-吴恩达[P41、P42、P61、P62]
+  - **正则化、偏差与方差**：偏差指的是预测值（估计值）的期望与真实值之间的差距，偏差越大，越偏离真实数据；方差指的是预测值的变化范围，离散程度，也就是离其期望值的距离，方差越大，数据的分布越分散。参见-->西瓜书[2.5]、机器学习-吴恩达[P41、P42、P61、P62]
   
   - **性能度量**：了解混淆矩阵、准确率、召回率、精度、F1-Score等度量学习效果好坏的概念，参见--> 西瓜书[2.3]、[参考博客](https://www.cnblogs.com/wuliytTaotao/p/9285227.html)
 
@@ -68,18 +68,21 @@
 - 说明：所列基本能力是需要掌握的基础。sklearn库实现了绝大多数机器学习的算法，学习过程中尝试通过调用API进行案例实践。
 ## *四、深度学习基础*
 ### 4.1 需掌握的基本能力
-- 神经网络基础：了解神经网络的基本组成部分（如感知器、多层感知器等）以及如何使用Python库实现
-  - 感知机：西瓜书[5.2]、[参考Blog](https://zhuanlan.zhihu.com/p/72040253)
-  - 激活函数：
-  - 多层感知机：西瓜书[5.3]
-  - 反向传播：
-  - 卷积神经网络：
-  - 循环神经网络：
-- 模型训练与优化：了解常用的损失函数、优化算法以及如何使用Python库实现
-  - 损失函数：
-  - 优化算法：
+- 神经网络基础：首先了解感知机和多层感知机的原理，理解反向传播的基本原理和基本推导，掌握神经网络的基本组成部分(神经元、激活函数、损失等)，参照《神经网络与深度学习》(Michael Nielsen 著)Chapter1-Chapter2，学习相关概念，并根据开源项目跑通手写数字识别。其次掌握卷积神经网络、循环神经网络的相关概念，掌握基本概念和基本原理之后以项目为主导入手，推荐项目：
+  - **感知机**：神经网络与深度学习[1.1]、西瓜书[5.2]、[参考Blog](https://zhuanlan.zhihu.com/p/72040253)
+  - **多层感知机(MLP)**：针对感知机无法解非线性分类问题，多层感知机引入激活函数，将感知机扩展到多层。参见-->西瓜书[5.3]
+  - **损失函数**：机器学习-吴恩达[P6-P8]
+  - **网络更新**：理解梯度下降算法的基本原理，掌握链式法则、参数梯度的计算。参见-->《神经网络与深度学习》[1.5、Ch.2]、动手学深度学习[P7]
+  - **参考项目**：动手学深度学习[P10]
+- 常用神经网络：理解不同的神经网络的结构和基础组成部分、理解批次的概念
+  - **卷积神经网络(CNN)**：理解卷积、卷积核、池化等相关概念、理解LeNet、AlexNet、VGG、Inception、ResNet等经典网络的结构。动手实现LeNet和ResNet。-->动手学深度学习[P23、P29]
+  - **循环神经网络(RNN)**：理解循环网络的网络形式以及网络实现方法。-->[《动手学深度学习》(李沐)](https://zh-v2.d2l.ai/chapter_recurrent-neural-networks/index.html)、动手学深度学习[P54-P59]、[参考博客](https://zybuluo.com/hanbingtao/note/541458)
+  - **注意力机制(Attention)**：注意力机制是Transformer的最基础的结构，最初用于NLP领域，但在计算机视觉领域以及图领域也表现出了极强的特征提取能力，推荐阅读《Attention is All You Need》原文。参见-->动手学深度学习[P68]、[参考论文](https://arxiv.org/abs/1706.03762)
+- 模型训练与优化：了解常用的优化算法、网络改进策略
+  - **优化算法**：理解神经网络优化的经典算法，理解梯度下降算法的基本原理，以及不同优化算法的区别以及改进思路。参见-->[《动手学深度学习》李沐](https://zh-v2.d2l.ai/chapter_optimization/index.html)、视频课程<动手学深度学习(李沐)[P72]>
+  - **调参炼丹**：[Deep Learning Tuning Playbook](https://github.com/google-research/tuning_playbook)、[DeepLearningTuning-中文译版](https://github.com/chunqiangqian/deepLearningTuning/blob/main/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%B0%83%E5%8F%82%E6%96%B9%E6%B3%95.md)
 - 常用框架：了解PyTorch、TensorFlow等常用深度学习框架的基本用法
-  - 
+  - 系统性学习Pytorch可参照-->[Pytorch入门教程](https://www.bilibili.com/video/BV1rs4y1E7gx/?spm_id_from=333.337.search-card.all.click&vd_source=ef6bc9d073dccb208fb608bc99286677)
 
 ### 4.2 学习资源
 * 书籍：《神经网络与深度学习》（Michael Nielsen）、《深度学习框架：Pytorch入门与实践》（陈云）
@@ -89,4 +92,4 @@
 * 课程： [Pytorch入门教程](https://www.bilibili.com/video/BV1rs4y1E7gx/?spm_id_from=333.337.search-card.all.click&vd_source=ef6bc9d073dccb208fb608bc99286677)、[动手学深度学习--李沐](https://space.bilibili.com/1567748478/channel/seriesdetail?sid=358497)
 
 ## 说明
-本指南为在有一定数学基础下的速通指南，各部分之间会有些许交叉。总的来说机器学习是最重要的基础，可以参考西瓜书了解相关理论，其中的公式推导可以参考南瓜书的讲解。深度学习更面向应用，推荐根据《神经网络与深度学习》（Michael Nielsen）进行系统学习，同时尝试跑一些demo实战能帮助理解，深度学习框架方面推荐Pytorch。相关pdf资源已上传。
+本指南为在有一定数学基础下的速通指南，各部分之间会有些许交叉。总的来说机器学习是最重要的基础，可以参考西瓜书了解相关理论，其中的公式推导可以参考南瓜书的讲解。深度学习更面向应用，推荐根据《神经网络与深度学习》（Michael Nielsen）以及《动手学深度学习》(李沐)课程进行系统学习，同时尝试跑一些demo实战能帮助理解，深度学习框架方面推荐Pytorch。相关pdf资源已上传。
