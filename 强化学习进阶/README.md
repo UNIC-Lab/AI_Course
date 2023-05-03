@@ -2,11 +2,12 @@
 ## 一、强化学习基础理论与核心概念
 
 第一节中所介绍的值函数、MC方法、TD方法等都是基于算法的，是对算法的归类，因此与后续介绍的QLearning、Sarsa等比较基础的算法有交叉，学习过程中需要对应具体算法的教程进行学习，理解算法具体流程的同时学习归纳基于值函数和基于策略的概念，以及基于MC和基于TD的区别与优劣。
-- 1.0 **强化学习基础理论**: 第一阶段需要理解强化学习的核心理论，学习强化学习的四要素以及策略迭代、策略梯度两种方式。可以参照教材，然后理解值函数和策略的概念，并掌握基于蒙特卡洛的强化学习方法和基于TD的方法，并理解基于蒙特卡洛和基于TD两种方法中方差和偏差的概念。-->西瓜书[Ch.16]
+- 1.0 **强化学习基础理论**: 第一阶段需要理解强化学习的核心理论，学习强化学习的四要素以及策略迭代、策略梯度两种方式。可以参照教材，然后理解值函数和策略的概念，并掌握基于蒙特卡洛的强化学习方法和基于TD的方法，并理解基于蒙特卡洛和基于TD两种方法中方差和偏差的概念。-->西瓜书[Ch.16] [神经网络与深度学习[14.1]](https://nndl.github.io/)
 - 1.1 **Markov决策过程**
   - Blogs: [马尔可夫决策过程原理与代码实现](https://blog.csdn.net/qq_41297934/article/details/105104684)
   - Paper: [Markov decision processes: Concepts and algorithms](https://www.writebug.com/git/awan/aicar/raw/commit/f779d0e788f6ba0aeb45d8d31f1384c09c236afe/references/Markov%20Decision%20Processes%20Concepts%20and%20Algorithms.pdf)
 - 1.2 值函数和策略
+  - [神经网络与深度学习[14.2-14.3]](https://nndl.github.io/)
   - Blogs: [基于值和策略的强化学习入坑](https://zhuanlan.zhihu.com/p/54825295)
 - 1.4 蒙特卡罗方法
   - Blogs: [强化学习 - 蒙特卡罗法(Monte Carlo Methods)](https://zhuanlan.zhihu.com/p/72715842)
