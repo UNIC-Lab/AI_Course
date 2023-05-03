@@ -69,29 +69,31 @@
 ## *四、深度学习基础(3 weeks)*
 ### 4.1 需掌握的基本能力
 - 神经网络基础：首先了解感知机和多层感知机的原理，理解反向传播的基本原理和基本推导，掌握神经网络的基本组成部分(神经元、激活函数、损失等)，参照《神经网络与深度学习》(Michael Nielsen 著)Chapter1-Chapter2，学习相关概念，并根据开源项目跑通手写数字识别。其次掌握卷积神经网络、循环神经网络的相关概念，掌握基本概念和基本原理之后以项目为主导入手，推荐项目：
-  - **感知机**：神经网络与深度学习[1.1]、西瓜书[5.2]、[参考Blog](https://zhuanlan.zhihu.com/p/72040253)
+  - **感知机**：最初版本的感知机是一种线性分类器，但却是深度网络的基础，需要了解感知机的公式形式、迭代方法、线性性质等。神经网络与深度学习[1.1]、西瓜书[5.2]、[参考Blog](https://zhuanlan.zhihu.com/p/72040253)
   
-  - **多层感知机(MLP)**：针对感知机无法解非线性分类问题，多层感知机引入激活函数，将感知机扩展到多层。参见-->西瓜书[5.3]
+  - **多层感知机(MLP)**：针对感知机无法解非线性分类问题，多层感知机引入激活函数，将感知机扩展到多层。需要了解多层感知机的改进点以及多层网络的作用。参见-->西瓜书[5.3]
   
-  - **损失函数**：[机器学习-吴恩达[P6-P8]](https://www.bilibili.com/video/BV1By4y1J7A5/?p=6)
+  - **损失函数**：损失函数是神经网络优化的目标，需要掌握损失函数的概念，了解常见的损失函数的形式，推导过程，求导过程以及基础实现方法。参见-->  [参考Blog](https://zhuanlan.zhihu.com/p/261059231)、 [机器学习-吴恩达[P6-P8]](https://www.bilibili.com/video/BV1By4y1J7A5/?p=6)
   
-  - **网络更新**：理解梯度下降算法的基本原理，掌握链式法则、参数梯度的计算。参见-->《神经网络与深度学习》[1.5、Ch.2]、动手学深度学习[P7]
+  - **网络更新**：理解梯度下降算法的基本原理，掌握链式法则、参数梯度的计算。参见-->《神经网络与深度学习》[1.5、Ch.2]、[动手学深度学习[P7]](【07 自动求导【动手学深度学习v2】-哔哩哔哩】 https://b23.tv/GGvh4Yy)
   
   - **参考项目**：[动手学深度学习[P10]](https://www.bilibili.com/video/BV1hh411U7gn/?)
 
 - 常用神经网络：理解不同的神经网络的结构和基础组成部分、理解批次的概念
   
-  - **卷积神经网络(CNN)**：理解卷积、卷积核、池化等相关概念、理解LeNet、AlexNet、VGG、Inception、ResNet等经典网络的结构。动手实现LeNet和ResNet。-->动手学深度学习[P23、P29]
+  - **卷积神经网络(CNN)**：理解卷积、卷积核、池化等相关概念、理解LeNet、AlexNet、VGG、Inception、ResNet等经典网络的结构。动手实现LeNet和ResNet。-->动手学深度学习[P23、P29]、[LeNet参考项目](https://github.com/activatedgeek/LeNet-5)、[AlextNet](https://github.com/Lornatang/AlexNet-PyTorch)
   
   - **循环神经网络(RNN)**：理解循环网络的网络形式以及网络实现方法。-->[《动手学深度学习》(李沐)](https://zh-v2.d2l.ai/chapter_recurrent-neural-networks/index.html)、动手学深度学习[P54-P59]、[参考博客](https://zybuluo.com/hanbingtao/note/541458)
   
   - **注意力机制(Attention)**：注意力机制是Transformer的最基础的结构，最初用于NLP领域，但在计算机视觉领域以及图领域也表现出了极强的特征提取能力，推荐阅读《Attention is All You Need》原文。参见-->[《动手学深度学习》(李沐)](https://zh-v2.d2l.ai/chapter_attention-mechanisms/index.html)、[动手学深度学习[P68]](https://www.bilibili.com/video/BV1Kq4y1H7FL)、[参考论文](https://arxiv.org/abs/1706.03762)
+  
+  - **注**: 深度学习的学习需要配合具体项目进行，除了了解网络结构外，还要能够独立进行项目的运行demo。所列资源以及demo都是基于pytorch版本，学习过程中配合pytorch教程，了解网络实现逻辑，了解pytorch的框架结构。
 
 - 模型训练与优化：了解常用的优化算法、网络改进策略
   
-  - **优化算法**：理解神经网络优化的经典算法，理解梯度下降算法的基本原理，以及不同优化算法的区别以及改进思路。参见-->[《动手学深度学习》李沐](https://zh-v2.d2l.ai/chapter_optimization/index.html)、[动手学深度学习[P72]](https://www.bilibili.com/video/BV1bP4y1p7Gq)
+  - **优化算法**：理解神经网络优化的经典算法，如SGD、Adagrad、Adadelta、Adam等，理解梯度下降算法的基本原理。以及不同优化算法的区别以及改进思路。进一步学习，可参照《最优化及其应用》。 参见-->[《动手学深度学习》李沐](https://zh-v2.d2l.ai/chapter_optimization/index.html)、[动手学深度学习[P72]](https://www.bilibili.com/video/BV1bP4y1p7Gq)
   
-  - **调参炼丹**：学习一般的调参方法。参见--> [Deep Learning Tuning Playbook](https://github.com/google-research/tuning_playbook)、[DeepLearningTuning-中文译版](https://github.com/chunqiangqian/deepLearningTuning/blob/main/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%B0%83%E5%8F%82%E6%96%B9%E6%B3%95.md)
+  - **调参炼丹**：学习一般的调参方法，了解哪些属于可调参数，学习调参的基本方向是什么等技能。参见--> [Deep Learning Tuning Playbook](https://github.com/google-research/tuning_playbook)、[DeepLearningTuning-中文译版](https://github.com/chunqiangqian/deepLearningTuning/blob/main/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E8%B0%83%E5%8F%82%E6%96%B9%E6%B3%95.md)
 - 常用框架：了解PyTorch、TensorFlow等常用深度学习框架的基本用法
   
   - 系统性学习Pytorch可参照-->[Pytorch入门教程](https://www.bilibili.com/video/BV1rs4y1E7gx/?spm_id_from=333.337.search-card.all.click&vd_source=ef6bc9d073dccb208fb608bc99286677)
@@ -104,4 +106,4 @@
 * 课程： [Pytorch入门教程](https://www.bilibili.com/video/BV1rs4y1E7gx/?spm_id_from=333.337.search-card.all.click&vd_source=ef6bc9d073dccb208fb608bc99286677)、[动手学深度学习--李沐](https://space.bilibili.com/1567748478/channel/seriesdetail?sid=358497)
 
 ## 说明
-本指南为在有一定数学基础下的速通指南，各部分之间会有些许交叉。总的来说机器学习是最重要的基础，可以参考西瓜书了解相关理论，其中的公式推导可以参考南瓜书的讲解。深度学习更面向应用，推荐根据《神经网络与深度学习》（Michael Nielsen）以及《动手学深度学习》(李沐)课程进行系统学习，《动手学深度学习》有配套的教材和视频课程，尝试仿照例程跑一些demo实战能帮助理解，但需要有pytorch的相关基础。
+本指南为在有一定数学基础下的速通指南，各部分之间会有些许交叉。总的来说机器学习是最重要的基础，可以参考西瓜书了解相关理论，其中的公式推导可以参考南瓜书的讲解，也可以参考统计学习方法，但对于本教程，不需要完全理解书中所有的内容和公式推导。深度学习更面向应用，推荐根据《神经网络与深度学习》（Michael Nielsen）以及《动手学深度学习》(李沐)课程进行系统学习，《动手学深度学习》有配套的教材和视频课程，尝试仿照例程跑一些demo实战能帮助理解，但需要有pytorch的相关基础。
