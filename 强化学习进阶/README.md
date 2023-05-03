@@ -16,11 +16,11 @@
 - 1.6 动态规划方法
   - Blogs: [强化学习 - 动态规划(Dynamic Programming)](https://zhuanlan.zhihu.com/p/72360992)
 ## 二、基于值函数的强化学习算法
-- Q-Learning算法
+- **Q-Learning算法**
   - Paper: [Q Learning](https://link.springer.com/article/10.1007/BF00992698)
-- Sarsa算法
+- **Sarsa算法**
   - Paper: [On-line Q-learning using connectionist systems](https://www.researchgate.net/profile/Mahesan-Niranjan/publication/2500611_On-Line_Q-Learning_Using_Connectionist_Systems/links/5438d5db0cf204cab1d6db0f/On-Line-Q-Learning-Using-Connectionist-Systems.pdf?_sg%5B0%5D=HYd0h230b7WOR6m4hj5yx01K97aS61Z0DufUURMQr9ZqMqcEVZ0dNpG84h6uCfRl_M40FNkXgRX-GnpnxH31Ww.jBF3fgrlhaJYs3bDEaHQU22nRpKP0zKeF_oOsqh7WddL8pfxAomPSbeANzdmLP9YPB26HbLeSaEJqhFgzIxvWQ&_sg%5B1%5D=CZtZhHTEMgSwBZrpZU_7BACd8RH04JUKiITdXRQJ6MQ9SFS27jreZmcsuNcqYYWRoxcwBE-xBMbrfl1QobmEZ65bmkmpzonq5JoLRIIUKXne.jBF3fgrlhaJYs3bDEaHQU22nRpKP0zKeF_oOsqh7WddL8pfxAomPSbeANzdmLP9YPB26HbLeSaEJqhFgzIxvWQ&_iepl=)
-- DQN算法
+- **DQN算法**
   - Paper: [Human-level control through deep reinforcement learning](https://www.nature.com/articles/nature14236/?source=post_page---------------------------)
 - Double DQN算法
   - Paper: [Deep Reinforcement Learning with Double Q-Learning](https://ojs.aaai.org/index.php/AAAI/article/view/10295)
@@ -31,9 +31,9 @@
 - Rainbow算法
   - Paper: [Rainbow: Combining Improvements in Deep Reinforcement Learning.](https://ojs.aaai.org/index.php/AAAI/article/view/11796)
 ## 三、基于策略梯度的强化学习算法
-- REINFORCE算法
+- **REINFORCE算法**
   - Paper: [Simple Statistical Gradient-Following Algorithms for Connectionist Reinforcement Learning](https://link.springer.com/chapter/10.1007/978-1-4615-3618-5_2)
-- Actor-Critic算法
+- **Actor-Critic算法**
   - Paper: [Actor-Critic Algorithms](https://proceedings.neurips.cc/paper/1999/hash/6449f44a102fde848669bdd9eb6b76fa-Abstract.html)
 - A3C算法
   - Paper: [Asynchronous Methods for Deep Reinforcement Learning.](http://proceedings.mlr.press/v48/mniha16.html?ref=https://githubhelp.com)
@@ -42,7 +42,7 @@
 - PPO算法
   - Paper: [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347)
 ## 四、基于动作价值和策略梯度的强化学习算法
-- DDPG算法
+- **DDPG算法**
   - Paper: [Deterministic Policy Gradient Algorithms](http://proceedings.mlr.press/v32/silver14.html)、 [Continuous control with deep reinforcement learning](https://arxiv.org/abs/1509.02971)
 - TD3算法
   - Paper: [Addressing Function Approximation Error in Actor-Critic Methods](https://proceedings.mlr.press/v80/fujimoto18a.html)
@@ -65,7 +65,7 @@
 
   - 《深度强化学习实战》（王汝建等著）
 
-  -  [OpenAI 强化学习教程](https://spinningup.openai.com/en/latest/spinningup/rl_intro.html)
+  -  [OpenAI spinningup强化学习教程](https://spinningup.openai.com/en/latest/spinningup/rl_intro.html)
 
 - 视频课程
 
@@ -76,7 +76,7 @@
   - [深度强化学习-李宏毅](https://www.bilibili.com/video/av24724071/?from=search&seid=9547815852611563503&vd_source=ef6bc9d073dccb208fb608bc99286677)
 ## 说明
 
-文档给出了强化学习的大致概念和经典的论文，速通可以参考博客，当然博客质量参差不齐，需要细细斟酌。基础理论如Bellman方程等建议手动推一遍。相关算法是比较重要的需要掌握的强化学习模型，速通可以找找相关博客，给出的论文都是影响力比较高的，大多有比较严格的理论推导和证明，有兴趣可以细推。当然也可以跟着课程或者书籍更系统性的学习，其中CS285和Reinforcement Learning是公认质量比较高的课程。欢迎将在学习过程中搜集到的优质资源更新至本库。
+文档给出了强化学习的大致概念和经典的论文，速通可以参考博客，当然博客质量参差不齐，需要细细斟酌。基础理论如Bellman方程等建议手动推一遍。相关算法是比较重要的需要掌握的强化学习模型，速通可以参考相关博客，给出的论文都是影响力比较高的，大多有比较严格的理论推导和证明，有兴趣可以细推，加粗的算法是必须掌握的，其余的是影响比较高的。当然也可以跟着课程或者书籍更系统性的学习，其中CS285和Reinforcement Learning是公认质量比较高的课程。比较推荐的是根据openai spinningup教程进行系统性学习相关算法，以及实现方法。
 
 基础理论和几个核心概念的是强化学习的重点基础，理解不清楚可能会在后面的学习中逐渐懵逼。。建议先从Markov决策过程的原理和概念入手，掌握值函数、策略的概念，理解蒙特卡罗方法、时间差分方法和动态规划方法的异同与优劣。
 
