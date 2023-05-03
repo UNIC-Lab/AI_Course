@@ -6,12 +6,12 @@
 - 1.1 **Markov决策过程**
   - Blogs: [马尔可夫决策过程原理与代码实现](https://blog.csdn.net/qq_41297934/article/details/105104684)
   - Paper: [Markov decision processes: Concepts and algorithms](https://www.writebug.com/git/awan/aicar/raw/commit/f779d0e788f6ba0aeb45d8d31f1384c09c236afe/references/Markov%20Decision%20Processes%20Concepts%20and%20Algorithms.pdf)
-- 1.2 值函数和策略
+- 1.2 **值函数和策略**
   - [神经网络与深度学习[14.2-14.3]](https://nndl.github.io/)
   - Blogs: [基于值和策略的强化学习入坑](https://zhuanlan.zhihu.com/p/54825295)
-- 1.4 蒙特卡罗方法
+- 1.4 **蒙特卡罗方法**
   - Blogs: [强化学习 - 蒙特卡罗法(Monte Carlo Methods)](https://zhuanlan.zhihu.com/p/72715842)
-- 1.5 时间差分方法
+- 1.5 **时间差分方法**
   - Blogs：[强化学习 - 时间差分学习(Temporal-Difference Learning)](https://zhuanlan.zhihu.com/p/73083240)
   - Paper: [Temporal difference learning and TD-gammon](https://dl.acm.org/doi/10.1145/203330.203343)
 - 1.6 动态规划方法
