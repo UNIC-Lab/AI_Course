@@ -1,24 +1,35 @@
 - [写在前面](#写在前面)
-- [python介绍](#python介绍)
-- [python环境管理工具](#python环境管理工具)
-  - [Anaconda安装：](#anaconda安装)
-  - [Anaconda使用：](#anaconda使用)
+- [Python介绍与安装](#python介绍与安装)
+  - [Python介绍](#python介绍)
+  - [Python安装](#python安装)
+- [Python虚拟环境管理](#python虚拟环境管理)
+  - [Anaconda安装](#anaconda安装)
+  - [Anaconda使用](#anaconda使用)
 - [代码编辑器](#代码编辑器)
-  - [Jupyter Notebook：](#jupyter-notebook)
-- [VsCode：](#vscode)
-  - [Pycharm:](#pycharm)
-- [python基础知识](#python基础知识)
-  - [第一阶段](#第一阶段)
-  - [第二阶段\*：](#第二阶段)
-  - [第三阶段：](#第三阶段)
-- [基础知识视频教程](#基础知识视频教程)
+  - [Jupyter Notebook](#jupyter-notebook)
+  - [VSCode](#vscode)
+  - [Pycharm](#pycharm)
+- [Python基础知识](#python基础知识)
+  - [第一阶段：基础语法](#第一阶段基础语法)
+  - [第二阶段\*：高阶特性](#第二阶段高阶特性)
+  - [第三阶段：数据处理](#第三阶段数据处理)
+- [基础语法视频教程](#基础语法视频教程)
 
 # 写在前面
-# python介绍
+# Python介绍与安装
+Python版本、安装等
+## Python介绍
 
-# python环境管理工具
+
+
+## Python安装
+Python目前有两个版本，一个是2.x版，一个是3.x版，这两个版本是不兼容的。由于3.x版越来越普及，我们的教程建议使用Python 3.6及以上版本。
+  - Windows安装：
+  首先，根据你的Windows版本（64位还是32位）从Python的官方网站下载Python 3.5对应的[64位安装程序](https://www.python.org/ftp/python/3.5.0/python-3.5.0-amd64.exe)或[32位安装程序](https://www.python.org/ftp/python/3.5.0/python-3.5.0.exe)（或者移步[国内镜像](http://pan.baidu.com/s/1sjqOkFF)），然后，运行下载的EXE安装包：
+
+# Python虚拟环境管理
 介绍python环境的概念、conda安装、、命令集
-## Anaconda安装：
+## Anaconda安装
   - 1. conda[下载地址](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/)，注意后缀，下载符合系统的版本
   - 2. 安装过程选项：
       
@@ -35,7 +46,7 @@
 
       cmd命令行输入：`conda --version`，输出conda版本即安装成功且环境变量配置成功
  
-## Anaconda使用：
+## Anaconda使用
   
   conda可以理解为一个工具，也是一个可执行命令，其核心功能是包管理和环境管理。包管理与pip的使用方法类似，环境管理则是允许用户方便滴安装不同版本的python环境并在不同环境之间快速地切换。
   - 查看conda中的环境使用命令：
@@ -78,19 +89,24 @@
       如果并不是所有时候都用到镜像，可以通过在安装具体库的时候指定镜像：`pip install [package] -i https://pypi.tuna.tsinghua.edu.cn/simple`
 
 # 代码编辑器
-主要推荐的编辑器和IDE包括`Jupyter Notebook`、`Visual studio code`、`Pycharm`，其中Jupyter Notebook是以网页的形式打开，可以在网页页面中直接编写代码和运行代码，代码的运行结果也会直接在代码块下显示的程序。如在编程过程中需要编写说明文档，可在同一个页面中直接编写，便于作及时的说明和解释。VsCode是个简化高效的代码编辑器，同时支持调试、任务执行，版本管理等开发操作。Pycharm则是比较专业的针对Python的IDE
-## Jupyter Notebook：
-安装教程（命令行安装运行） 注：新手友好，流程简明
+主要推荐的编辑器和IDE包括`Jupyter Notebook`、`Visual studio code`、`Pycharm`，其中Jupyter Notebook是以网页的形式打开，可以在网页页面中直接编写代码和运行代码，代码的运行结果也会直接在代码块下显示的程序。如在编程过程中需要编写说明文档，可在同一个页面中直接编写，便于作及时的说明和解释，对新手友好。VsCode是个简化高效的代码编辑器，同时支持调试、任务执行，版本管理等开发操作。Pycharm则是比较专业的针对Python的IDE
+## Jupyter Notebook
+Jupyter的安装和所有第三方库一样，先激活环境，再使用pip或者conda安装，推荐使用镜像：
+`pip install jupyter -i https://pypi.tuna.tsinghua.edu.cn/simple`
+`conda install jupyter -i https://pypi.tuna.tsinghua.edu.cn/simple`
+安装完成后在激活环境后的命令行面板中运行`jupyter notebook`，即可打开notebook页面。
+Jupyter Notebook的使用教程可以参考[Blog](https://zhuanlan.zhihu.com/p/32320214)
 
-# VsCode：
-  vscode的安装一般不会出现问题
+## VSCode
+  VSCode是轻量级的开源代码编辑器，页面简洁，并且支持大量的扩展程序，可玩性较高，并且并不只是支持Python开发。VSCode的安装一般不会出现问题，直接[官网](https://code.visualstudio.com/)下载`.exe`文件进行安装即可。VSCode运行`.py`脚本首先需要安装python扩展，并且选择解释器，解释器可以使用选择conda中创建的环境。
+具体的使用可以参考[Blog](https://zhuanlan.zhihu.com/p/112431369)，更多玩法可以自己探索。
 
-## Pycharm:
-pycharm相对于vscode更为专业，功能也更强大，但比较繁杂。Pycharm只有专业版可以连接远程服务器，所以尽量下载专业版，可以通过jetbrain的师生认证，也可以找一些都懂的资源。同时使用vscode和pycharm的话需要注意一点，两个编辑器识别文件路径的逻辑是不一样的。Pycharm可以针对项目创建环境（即解释器），也支持加载本地venv环境以及conda中环境。具体使用教程可以参考[Blog](https://zhuanlan.zhihu.com/p/231064736)。
+## Pycharm
+Pycharm相对于vscode更为专业，功能也更强大，但比较繁杂。Pycharm只有专业版可以连接远程服务器，所以尽量下载专业版，可以通过jetbrain的师生认证，也可以找一些都懂的资源。同时使用vscode和pycharm的话需要注意一点，两个编辑器识别文件路径的逻辑是不一样的。Pycharm可以针对项目创建环境（即解释器），也支持加载本地venv环境以及conda中环境。具体使用教程可以参考[Blog](https://zhuanlan.zhihu.com/p/231064736)。
 
-# python基础知识
+# Python基础知识
 
-  ## 第一阶段
+  ## 第一阶段：基础语法
   
   第一阶段参照《Python编程：从入门到实践》中的第一部分，并参考知识点基于jupyter notebook进行编程运行，每个知识点有可供参考的notebook文件，教材中的知识点更细致。最好将项目git到本地进行运行，把一些可能遇到的环境配置的问题在学习初期就解决了。当然也可以使用Colab代码学习。
   [copyright](https://github.com/shibing624/python-tutorial/)
@@ -110,7 +126,7 @@ pycharm相对于vscode更为专业，功能也更强大，但比较繁杂。Pych
   | [11_线程和进程.ipynb](https://github.com/shibing624/python-tutorial/blob/master/01_base/11_线程和进程.ipynb)  | Python多线程和多进程  |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shibing624/python-tutorial/blob/master/01_base/11_线程和进程.ipynb) |
   | [12_面向对象编程.ipynb](https://github.com/shibing624/python-tutorial/blob/master/02_advanced/07_面向对象编程.ipynb)  | Python类  |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shibing624/python-tutorial/blob/master/02_advanced/07_面向对象编程.ipynb) |
 
-  ## 第二阶段*：
+  ## 第二阶段*：高阶特性
   
   掌握了Python的基础知识，并且对Python的运行逻辑具有一定的了解后，可以学习一些高级特性。这部分没有必须要求，如果感兴趣，可以选择性学习。推荐了解高阶函数和迭代器。
   [copyright](https://github.com/shibing624/python-tutorial/)
@@ -124,9 +140,10 @@ pycharm相对于vscode更为专业，功能也更强大，但比较繁杂。Pych
   | [05_上下文管理器.ipynb](https://github.com/shibing624/python-tutorial/blob/master/02_advanced/05_上下文管理器.ipynb)  | with语句  |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shibing624/python-tutorial/blob/master/02_advanced/05_上下文管理器.ipynb) |
   | [06_装饰器.ipynb](https://github.com/shibing624/python-tutorial/blob/master/02_advanced/06_装饰器.ipynb)  | Decorator装饰器  |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shibing624/python-tutorial/blob/master/02_advanced/06_装饰器.ipynb) |
   
-  ## 第三阶段：
+  ## 第三阶段：数据处理
   
-  学习一些机器学习和数据科学需要用到的库，在后续机器学习和深度学习过程中，numpy和sklearn是必要的
+  学习一些机器学习和数据科学需要用到的库，在后续机器学习和深度学习过程中，numpy是非常必要的。Matplotlib是Python的画图工具。
+  [copyright](https://github.com/shibing624/python-tutorial/)
 
   | Notebook     |      知识点      |  Colab |
   |:----------|:-------------|---------:|
@@ -138,9 +155,8 @@ pycharm相对于vscode更为专业，功能也更强大，但比较繁杂。Pych
   | [06_SciPy曲线拟合.ipynb](https://github.com/shibing624/python-tutorial/blob/master/03_data_science/06_SciPy曲线拟合.ipynb)  | Scipy曲线  |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shibing624/python-tutorial/blob/master/03_data_science/06_SciPy曲线拟合.ipynb) |
   | [07_Pandas数据类型.ipynb](https://github.com/shibing624/python-tutorial/blob/master/03_data_science/07_Pandas数据类型.ipynb)  | Pandas数据类型  |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shibing624/python-tutorial/blob/master/03_data_science/07_Pandas数据类型.ipynb) |
   | [08_Pandas数据操作.ipynb](https://github.com/shibing624/python-tutorial/blob/master/03_data_science/08_Pandas数据操作.ipynb)  | Pandas操作  |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shibing624/python-tutorial/blob/master/03_data_science/08_Pandas数据操作.ipynb) |
-  | [09_Scikit-Learn分类.ipynb](https://github.com/shibing624/python-tutorial/blob/master/03_data_science/09_Scikit-Learn分类.ipynb)  | Scikit-Learn数据分类  |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shibing624/python-tutorial/blob/master/03_data_science/09_Scikit-Learn分类.ipynb) |
-  | [10_Scikit-Learn聚类.ipynb](https://github.com/shibing624/python-tutorial/blob/master/03_data_science/10_Scikit-Learn聚类.ipynb)  | Scikit-Learn聚类  |[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shibing624/python-tutorial/blob/master/03_data_science/10_Scikit-Learn聚类.ipynb) |
+ 
 
-# 基础知识视频教程
+# 基础语法视频教程
 [视频教程](https://www.bilibili.com/video/BV1qW4y1a7fU/?spm_id_from=333.337.search-card.all.click)
 
