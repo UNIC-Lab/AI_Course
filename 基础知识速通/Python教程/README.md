@@ -27,6 +27,7 @@ Python目前有两个版本，一个是2.x版，一个是3.x版，这两个版�
   - Windows安装：
   首先，根据你的Windows版本（64位还是32位）从Python的官方网站下载Python 3.5对应的[64位安装程序](https://www.python.org/ftp/python/3.5.0/python-3.5.0-amd64.exe)或[32位安装程序](https://www.python.org/ftp/python/3.5.0/python-3.5.0.exe)（或者移步[国内镜像](http://pan.baidu.com/s/1sjqOkFF)），然后，运行下载的EXE安装包：
 
+![Python基础教程-廖雪峰](https://user-images.githubusercontent.com/90789521/237056090-d8ba5995-edab-4885-a124-96d7fa9adac2.jpg)
 # Python虚拟环境管理
 介绍python环境的概念、conda安装、、命令集
 ## Anaconda安装
