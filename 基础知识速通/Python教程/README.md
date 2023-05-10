@@ -66,7 +66,7 @@ Python目前有两个版本，一个是2.x版，一个是3.x版，这两个版�
     
       Windows: `activate [env_name]` `conda activate [env_name]`
     
-    - conda环境中第三方库的安装：
+   - conda环境中第三方库的安装：
 
       ```conda install -n env_name [package]  # 未激活环境```
     
@@ -75,11 +75,14 @@ Python目前有两个版本，一个是2.x版，一个是3.x版，这两个版�
       此外，也可以在激活环境后使用`pip install [package]`安装，但是注意尽量别混合使用`conda install`和`pip install`，存在依赖的包必须用同一种形式安装
     - 关闭环境：`conda deactivate`
     - 删除环境：`conda remove -n env_name --all`
-    - 关于镜像：镜像网站主要作用是在安装第三方库的时候加速库的下载，初学可以对整个conda环境配置镜像，配置命令如下：
+    - 关于镜像：镜像网站主要作用是在安装第三方库的时候加速库的下载，使用清华源配置conda镜像，配置命令如下：
       ```
       conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/      
       conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/     
-      conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/    
+      conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/ 
+      conda config --add https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/menpo/
+      conda config --add https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/
+      conda config --add https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
       conda config --set show_channel_urls yes
       ```
       
@@ -87,7 +90,7 @@ Python目前有两个版本，一个是2.x版，一个是3.x版，这两个版�
       
       `conda config --remove-key channels`
       
-      如果并不是所有时候都用到镜像，可以通过在安装具体库的时候指定镜像：`pip install [package] -i https://pypi.tuna.tsinghua.edu.cn/simple`
+      如果并不是所有时候都用到镜像，可以通过在安装具体库的时候指定镜像：`pip install [package] -i https://pypi.tuna.tsinghua.edu.cn/simple`或者`conda -c [mirros] [pakage]`
 
 # 代码编辑器
 主要推荐的编辑器和IDE包括`Jupyter Notebook`、`Visual studio code`、`Pycharm`，其中Jupyter Notebook是以网页的形式打开，可以在网页页面中直接编写代码和运行代码，代码的运行结果也会直接在代码块下显示的程序。如在编程过程中需要编写说明文档，可在同一个页面中直接编写，便于作及时的说明和解释，对新手友好。VsCode是个简化高效的代码编辑器，同时支持调试、任务执行，版本管理等开发操作。Pycharm则是比较专业的针对Python的IDE
