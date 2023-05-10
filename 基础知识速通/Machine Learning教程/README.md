@@ -19,7 +19,7 @@
 这一部分我们学习非神经网络的机器学习分支，只需要学习一些简单的算法，主要设计分类、聚类、降维三部分。首先从**K近邻**算法入手，KNN是最简单的分类算法之一，掌握其具体的算法步骤和概念即可。**K-Means**是最为常用的聚类算法，只需要学习最简单的线性K-Means分类即可。PCA算法是一种降维算法，可以实现。**支持向量机**是除神经网络外最常用的机器学习分类算法，速通阶段只需要学习线性的SVM即可。这一部分的教程主要参考西瓜书，配套b站解读西瓜书系列视频学习。学习完之后阅读并运行相关代码
 |知识点|教程|视频|代码|
 |:------|------|------|----:|
-|KNN|《机器学习》(周志华)[10.1]|[解读西瓜书-K近邻](https://www.bilibili.com/video/BV1dM411k7q5?p=52&vd_source=ef6bc9d073dccb208fb608bc99286677)|
+|KNN|《机器学习》(周志华)[10.1]|[解读西瓜书-K近邻](https://www.bilibili.com/video/BV1dM411k7q5?p=52&vd_source=ef6bc9d073dccb208fb608bc99286677)|[KNN notebook](https://github.com/UNIC-Lab/AI_Course/blob/main/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E9%80%9F%E9%80%9A/Machine%20Learning%E6%95%99%E7%A8%8B/NoteBooks/knn-notebook.ipynb)|
 |K-Means|机器学习讲义|[KMeans聚类](https://www.bilibili.com/video/BV17Y4y1v7XH?p=3&vd_source=ef6bc9d073dccb208fb608bc99286677)|[K-Means notebook](https://github.com/UNIC-Lab/AI_Course/edit/main/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E9%80%9F%E9%80%9A/Machine%20Learning%E6%95%99%E7%A8%8B/7.kmeans_and_PCA)|
 |PCA降维|《机器学习》(周志华)[10.3]|[PCA降维](https://www.bilibili.com/video/BV1QS4y1e7y6/?spm_id_from=333.337.search-card.all.click&vd_source=ef6bc9d073dccb208fb608bc99286677)|[PCA notebook](https://github.com/UNIC-Lab/AI_Course/edit/main/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E9%80%9F%E9%80%9A/Machine%20Learning%E6%95%99%E7%A8%8B/7.kmeans_and_PCA)|
 |贝叶斯分类  |《机器学习》(周志华)[7.1-7.3]|[解读西瓜书-贝叶斯分类器](https://www.bilibili.com/video/BV1dM411k7q5?p=35&vd_source=ef6bc9d073dccb208fb608bc99286677)|
