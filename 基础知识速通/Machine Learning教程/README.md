@@ -22,6 +22,7 @@
 |KNN||[统计学习方法(李航)[P22]](https://www.bilibili.com/video/BV1oZ4y1z7KV?p=22&vd_source=ef6bc9d073dccb208fb608bc99286677)|
 |K-Means|机器学习讲义|[KMeans聚类](https://www.bilibili.com/video/BV17Y4y1v7XH?p=3&vd_source=ef6bc9d073dccb208fb608bc99286677)|[Logistic回归notebook](https://github.com/UNIC-Lab/AI_Course/edit/main/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E9%80%9F%E9%80%9A/Machine%20Learning%E6%95%99%E7%A8%8B/7.kmeans_and_PCA)|
 |PCA降维|||
+|贝叶斯分类|||
 |支持向量机*|||
 
 
