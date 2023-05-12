@@ -42,7 +42,7 @@ Pytorch是一个庞大的框架系统，无法在短时间内了解所有的框�
 ## 循环神经网络
 - 教材：[《动手学深度学习》Ch9-现代循环神经网络](https://zh-v2.d2l.ai/chapter_recurrent-modern/index.html)
 - 视频：[动手学深度学习v2[P54-P59]](https://www.bilibili.com/video/BV1264y1i7R1/?spm_id_from=333.999.0.0&vd_source=ef6bc9d073dccb208fb608bc99286677)
-- Demo：
+- Demo：[Seq2Seq示例](https://zh.d2l.ai/chapter_recurrent-modern/seq2seq.html)
 ## 注意力机制
 - 教材：[《动手学深度学习》Ch10-注意力机制](https://zh-v2.d2l.ai/chapter_attention-mechanisms/index.html)
 - 视频：[动手学深度学习v2[P64-P68]](https://www.bilibili.com/video/BV1264y1i7R1/?spm_id_from=333.999.0.0&vd_source=ef6bc9d073dccb208fb608bc99286677)
