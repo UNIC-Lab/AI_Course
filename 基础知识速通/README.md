@@ -2,7 +2,7 @@
 本教程主要针对有一定数学基础的同学快速入门深度学习与强化学习。学习路线制定为：[Python基础](https://github.com/UNIC-Lab/AI_Course/tree/main/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E9%80%9F%E9%80%9A/Python%E6%95%99%E7%A8%8B)----->[机器学习基础](https://github.com/UNIC-Lab/AI_Course/tree/main/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E9%80%9F%E9%80%9A/Machine%20Learning%E6%95%99%E7%A8%8B)----->[深度学习基础](https://github.com/UNIC-Lab/AI_Course/tree/main/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E9%80%9F%E9%80%9A/Deep%20Learning%E6%95%99%E7%A8%8B)----->强化学习基础。本教程每一部分均配有相关notebook代码，需要自行调试运行，感兴趣的也可以自己复现，建议将教程中的代码down到本地运行。教材电子版已上传[资料]或给出了地址链接，视频课程每部分也给出了具体课程地址，具体查阅每部分所属文件夹。
 
 - ***Python基础***：
-    主要参考教材《Python编程：从入门到时间》第一部分和notebook代码学习，首先学习Python安装以及环境管理工具conda的安装与使用。然后本教程将Python的相关语法和工具的学习分为三个阶段
+    主要参考教材《Python编程：从入门到实践》第一部分和notebook代码学习，首先学习Python安装以及环境管理工具conda的安装与使用。然后本教程将Python的相关语法和工具的学习分为三个阶段
     - **第一阶段主要学习基础语法部分**，如果能够看懂的话可以直接学习调试运行给的代码例子，否则建议阅读《Python编程：从入门到时间》第一部分中的对应章节。
     - **第二阶段是学习Python的一些高阶特性**，这些高阶特性不是必要的，但是可以提高编程效率，并且以后会遇到的项目里面可能会存在高阶特性的语法。这一部分是选学内容，建议掌握迭代器与生成器、高阶函数这两节。
     - **第三阶段学习一些数据科学需要用到的库**，包括数据处理和绘图。掌握基本语法后，可以直接参考notebook中的内容进行学习，建议仔细学习numpy部分，后续可能会以较高的频率使用。这一部分如果理解有困难或者有兴趣进一步学习，可以参考教材[《Python数据科学手册》](https://github.com/wangyingsm/Python-Data-Science-Handbook/blob/master/printable/README.md)
