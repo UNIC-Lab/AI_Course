@@ -23,6 +23,7 @@
   - [ ] [注意力机制](https://github.com/UNIC-Lab/AI_Course/tree/main/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E9%80%9F%E9%80%9A/Deep%20Learning%E6%95%99%E7%A8%8B#%E6%B3%A8%E6%84%8F%E5%8A%9B%E6%9C%BA%E5%88%B6)
   - [ ] [优化算法](https://github.com/UNIC-Lab/AI_Course/tree/main/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E9%80%9F%E9%80%9A/Deep%20Learning%E6%95%99%E7%A8%8B#%E4%BC%98%E5%8C%96%E7%AE%97%E6%B3%95)
   - [ ] [调参炼丹](https://github.com/UNIC-Lab/AI_Course/tree/main/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E9%80%9F%E9%80%9A/Deep%20Learning%E6%95%99%E7%A8%8B#%E8%B0%83%E5%8F%82%E7%82%BC%E4%B8%B9)
+- [**强化学习入门**](https://www.bilibili.com/video/BV12o4y197US/?spm_id_from=333.337.search-card.all.click&vd_source=ef6bc9d073dccb208fb608bc99286677)
 
 ## 强化学习进阶
 针对强化学习方向，推荐了一些强化学习的必读论文，有一定基础的情况下可以通过阅读论文或者相关讲解博客入门，否则推荐[SpinningUp项目教程](https://spinningup.qiwihui.com/zh_CN/latest/)或参照[《强化学习导论》](https://rl.qiwihui.com/zh_CN/latest/)入门。
