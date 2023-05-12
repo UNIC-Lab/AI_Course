@@ -8,9 +8,9 @@
 
 ## 线性回归到神经网络
 第一部分从**线性回归**逐渐引入到神经网络，这一部分是学习重点。首先从**线性回归**和**Logistic回归**理解拟合与分类两种任务的联系与区别并对机器学习有一个基础的认识。**（单层）感知机**是神经网络的雏形，了解感知机权重的本质是分界线的参数，并掌握更新权重的方法。**神经网络**即多层感知机，学习这一部分，需要理解神经网络和感知机之间的联系，理解深度网络激活函数的作用，为何深度神经网络相对感知机能够实现非线性分类。这一部分主要学习吴恩达机器学习课程，感知机部分参考《统计学习方法》(周志华)5.2节。配套的其余参考提供了一些博客以便于更轻松地理解相关概念。
-|知识点|教材|视频|代码|其余参考|
-|:------|------|------|----|---|
-|线性回归|[机器学习讲义-线性回归](https://scruel.gitee.io/ml-andrewng-notes/week1.html)|[机器学习(吴恩达)[P10-P19]](https://www.bilibili.com/video/BV1cv4y1W7A3?p=9&vd_source=ef6bc9d073dccb208fb608bc99286677)|[线性回归notebook](https://github.com/UNIC-Lab/AI_Course/edit/main/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E9%80%9F%E9%80%9A/Machine%20Learning%E6%95%99%E7%A8%8B/1.linear_regression)||
+|知识点|教材|视频|代码|
+|:------|------|------|----:|
+|线性回归|[机器学习讲义-线性回归](https://scruel.gitee.io/ml-andrewng-notes/week1.html)|[机器学习(吴恩达)[P10-P19]](https://www.bilibili.com/video/BV1cv4y1W7A3?p=9&vd_source=ef6bc9d073dccb208fb608bc99286677)|[线性回归notebook](https://github.com/UNIC-Lab/AI_Course/edit/main/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E9%80%9F%E9%80%9A/Machine%20Learning%E6%95%99%E7%A8%8B/1.linear_regression)|
 |Logistic回归|[机器学习讲义-Logistic回归](https://scruel.gitee.io/ml-andrewng-notes/week3.html)| [机器学习(吴恩达)[P32-P41]](https://www.bilibili.com/video/BV1cv4y1W7A3?p=32&vd_source=ef6bc9d073dccb208fb608bc99286677) |[Logistic回归notebook](https://github.com/UNIC-Lab/AI_Course/edit/main/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E9%80%9F%E9%80%9A/Machine%20Learning%E6%95%99%E7%A8%8B/2.logistic_regression)|
 |感知机|《机器学习》(周志华)|[解读西瓜书](https://www.bilibili.com/video/BV1dM411k7q5?p=24&vd_source=ef6bc9d073dccb208fb608bc99286677)|
 |神经网络|[机器学习讲义-神经网络](https://scruel.gitee.io/ml-andrewng-notes/week4.html)|[机器学习(吴恩达)[P51-P58]](https://www.bilibili.com/video/BV1cv4y1W7A3?p=51&vd_source=ef6bc9d073dccb208fb608bc99286677)|[神经网络notebook](https://github.com/UNIC-Lab/AI_Course/edit/main/%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E9%80%9F%E9%80%9A/Machine%20Learning%E6%95%99%E7%A8%8B/4.nurual_network_back_propagation)|
