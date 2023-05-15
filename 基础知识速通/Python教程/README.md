@@ -73,16 +73,18 @@ Python目前有两个版本，一个是2.x版，一个是3.x版，这两个版�
       ```conda install [package]  # 如果已经激活环境```
       
       此外，也可以在激活环境后使用`pip install [package]`安装，但是注意尽量别混合使用`conda install`和`pip install`，存在依赖的包必须用同一种形式安装
-    - 关闭环境：`conda deactivate`
-    - 删除环境：`conda remove -n env_name --all`
-    - 关于镜像：镜像网站主要作用是在安装第三方库的时候加速库的下载，使用清华源配置conda镜像，配置命令如下：
+  - 关闭环境：`conda deactivate`
+    
+  - 删除环境：`conda remove -n env_name --all`
+    
+  - 关于镜像：镜像网站主要作用是在安装第三方库的时候加速库的下载，使用清华源配置conda镜像，配置命令如下：
       ```
       conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/      
       conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/     
       conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/ 
-      conda config --add https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/menpo/
-      conda config --add https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/
-      conda config --add https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+      conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/menpo/
+      conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/bioconda/
+      conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
       conda config --set show_channel_urls yes
       ```
       
